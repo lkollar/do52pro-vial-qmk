@@ -32,7 +32,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LCTL, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,       KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT,
         KC_LSFT, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,       KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_RSFT,
         KC_LGUI, KC_LALT, LT(_FN, KC_ESC), KC_SPC,                 KC_ENT,  LT(_FN, KC_ESC), KC_RALT, KC_RGUI,
-        KC_HOME, KC_PGDN, KC_DEL,  KC_PGUP, KC_END,               MS_WHLL, MS_WHLD, MS_BTN1, MS_WHLU, MS_WHLR
+        KC_HOME, KC_PGUP, KC_DEL,  KC_PGDN, KC_END,               MS_WHLL, MS_WHLU, MS_BTN1, MS_WHLD, MS_WHLR
     ),
 
     [_FN] = LAYOUT(
@@ -41,7 +41,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         _______, _______, MS_BTN1,  DRAG_SCROLL,  MS_BTN2,  _______,    KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, _______, _______,
         _______, _______, _______,  _______,      _______,   _______,    _______, _______, _______, _______, _______, _______,
         _______, _______, _______,  _______,                             _______, _______, _______, _______,
-        KC_MPRV, KC_VOLD, KC_MUTE,  KC_VOLU,      KC_MNXT,              MS_LEFT, MS_DOWN, MS_BTN1, MS_UP,   MS_RGHT
+        KC_MPRV, KC_VOLU, KC_MUTE,  KC_VOLD,      KC_MNXT,              MS_LEFT, MS_UP,   MS_BTN1, MS_DOWN, MS_RGHT
     )
 };
 
